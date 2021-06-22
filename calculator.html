@@ -10,20 +10,21 @@
        
 </head>
 <body>
-    <center>
-        <b4->
+    <center>   <!-- centering the body content-->
+        
             <div class="calculator">
-                <h3>Basic Calculator</h3>
+               <h3>Basic Calculator</h3>
+                <!-- input text create for write input and display results , clear for reset the input , del for delete if enter number wrongly  -->
                 <div class="in1">
-                   <input type="text" class="calnum" name="numbers_calculator" placeholder="Enter Number"/>
-                   <input type="button" onclick="clr()" value="CLEAR"/>
+                   <input type="text" class="calnum" name="numbers_calculator" placeholder="Enter Number"/> 
+                   <input type="button" onclick="clr()" value="CLEAR"/> 
                    <input type="button" onclick="clr1()" value="DEL"/>
                 </div> 
-                <div class="container">
+                <div class="container">     <!-- template for calculator -->
               
                   
                 
-                  <div class="row">
+                  <div class="row">           <!-- number button to calculator -->
                     <input type="button" onclick="cal('1')" value="1"/>
                     <input type="button" onclick="cal('2')" value="2"/>
                     <input type="button" onclick="cal('3')" value="3"/>
@@ -36,7 +37,7 @@
                     <input type="button" onclick="cal('0')" value="0"/>
                   </div>
                   
-                  <div class="row">
+                  <div class="row">          <!--  Arthimetic operator button to calculator -->
                     <input type="button" onclick="cal('+')" value="+"/>
                     <input type="button" onclick="cal('-')" value="-"/>
                     <input type="button" onclick="cal('*')" value="*"/>
@@ -46,7 +47,7 @@
                     
                   </div>
                 
-                 <div class="row">
+                 <div class="row">            <!--for result equal button , for extra zero's 00 & 000-->
               
                  </div>
                       <input type="button" onclick="cal('00')" value="00"/>
@@ -55,7 +56,7 @@
                 </div>
                       
               </div>  
-        </b4->
+       
     </center>
     
 </body>
