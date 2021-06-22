@@ -1,11 +1,13 @@
+/*  styling the calculator HTML code */
+
 .calculator{
     text-align:center;
     border:5px solid #8FBC8F;
     width:500px;
     height:300px;
     opacity:10px;
-    padding:5px 5px 5px 5px;
-    background:#ffeccc;
+   padding:5px 5px 5px 5px;           /* padding calculator */
+    background:#ffeccc;               /* changing background color for body  */
     
   }
   
@@ -14,11 +16,12 @@
     background:#A9A9A9;
     text-align:center;
     height:40px;
-    margin-left:auto;
+    margin-left:auto;     /* auto margin to center margin-left & margin-right is used  */
     margin-right:auto;
     font-size:30px;
     font-weight:bold 2px;
   }
+
   .calnum{
     text-align:bottom;
     width:380px;
@@ -27,7 +30,7 @@
   }
   
   .calnum:focus{
-    background: #ffffb3;
+    background: #ffffb3;     /* change color while focus on specific input[type=Text]  */
     color:CornflowerBlue;
   }
   
@@ -35,7 +38,7 @@
     font-weight:30px;
     background:#A9A9A9;
     color:#CD5C5C;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px;            /* add shadows to button using box-shadow  */
   }
   
   .container{
@@ -59,6 +62,6 @@
     box-shadow:2px 2px 5px;
   }
   
-  .container input:hover{
+  .container input:hover{        /* hover for highlighting buttons where cursor is placed on it  */
     background:#DCDCDC;
   }
